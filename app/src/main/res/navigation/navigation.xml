@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/titleFragment">
+
+    <fragment
+        android:id="@+id/titleFragment"
+        android:name="com.example.projekat_kviz.screens.title.TitleFragment"
+        android:label="@string/app_name"
+        tools:layout="@layout/title_fragment" >
+        <action
+            android:id="@+id/action_titleFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.projekat_kviz.screens.game.GameFragment"
+        android:label="@string/quiz"
+        tools:layout="@layout/game_fragment">
+        <argument
+            android:name="difficulty"
+            app:argType="integer" />
+        <argument
+            android:name="nmbrQuestions"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_end_game"
+            app:destination="@id/scoreFragment"
+            app:popUpTo="@id/titleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutFragment"
+        android:name="com.example.projekat_kviz.screens.menu.AboutFragment"
+        android:label="@string/about" />
+    <fragment
+        android:id="@+id/rulesFragment"
+        android:name="com.example.projekat_kviz.screens.menu.RulesFragment"
+        android:label="@string/rules" />
+    <fragment
+        android:id="@+id/usefulLinks"
+        android:name="com.example.projekat_kviz.screens.menu.UsefulLinks"
+        android:label="@string/useful_links" />
+    <fragment
+        android:id="@+id/scoreFragment"
+        android:name="com.example.projekat_kviz.screens.score.ScoreFragment"
+        android:label="@string/score"
+        tools:layout="@layout/score_fragment">
+        <argument
+            android:name="nmbrQuestion"
+            app:argType="integer" />
+        <argument
+            android:name="jokerUsed"
+            app:argType="boolean" />
+        <argument
+            android:name="score"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_restart"
+            app:destination="@id/titleFragment" />
+        <argument
+            android:name="difficulty"
+            app:argType="string" />
+    </fragment>
+</navigation>

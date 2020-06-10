@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name" translatable="false">Python Geek</string>
+
+    <!-- game -->
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_med">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="difficulty_choose">Choose a difficulty</string>
+    <string name="play">Play</string>
+    <string name="number_of_questions">Choose the number of questions</string>
+    <string name="default_number_of_questions" translatable="false">10</string>
+    <string name="default_difficulty">medium</string>
+    <string name="you_scored">You correctly answered</string>
+    <string name="share_success_text">I correctly answered %1$d/%2$d questions on the quiz Python Geek on difficulty \'%3$s\'!</string>
+    <string name="you_scored_max">Congratulations! You correctly answered all</string>
+    <string name="questions">questions!</string>
+    <string name="one_answer">(there is only one correct answer)</string>
+    <string name="more_answers">(there may be more correct answers)</string>
+    <string name="joker_yes">You asked a friend for help!</string>
+    <string name="joker_no">You didn\'t use the joker for a friend\'s help!"</string>
+    <string name="joker_help_text">Can you help me with the following Python question? \nQuestion: %s</string>
+    <string name="joker">Joker</string>
+    <string name="joker_choose">Do you want to message or call a friend?</string>
+    <string name="joker_used">You have already used your joker!</string>
+    <string name="message_option">Message</string>
+    <string name="call_option">Call</string>
+    <string name="listing_py" translatable="false">print(\'Hello, world!\')</string>
+
+    <!-- menu -->
+    <string name="about">About</string>
+    <string name="about_text">This app was created as a project for the \'Development of mobile applications\' class.   It is     a quiz application with questions regarding the first programming class our students take, using Python as a programming language.</string>
+    <string name="copyright" translatable="false">Copyright © 2020 Amina Sinanovic &amp; Adisa Bolic</string>
+
+    <string name="rules">Rules</string>
+    <string name="rules_text">Although the quiz is simple by itself, here we present the main rules.</string>
+    <string name="rule1">You should do the quiz by yourself.</string>
+    <string name="rule2">There are different types of questions (multiple choice, text answer…)</string>
+    <string name="rule3">There are no negative points, but some questions are harder than others!</string>
+    <string name="rule4">If a question has a timer, you should answer within the time limit, or else you won\'t get any points for that question.</string>
+    <string name="rule5">Not all questions have timers.</string>
+    <string name="rule6">All questions are worth 1 point.</string>
+    <string name="rule7">The joker to ask a friend can only be used once.</string>
+
+    <string name="useful_links">Useful Study Links</string>
+    <string name="links_text">Here we cited some useful references that can help you with studying Python and doing better on this quiz.</string>
+    <string name="link1_text">Official Python documentation</string>
+    <string name="link1" translatable="false">https://docs.python.org/3/</string>
+    <string name="link2_text">THE Python book</string>
+    <string name="link2" translatable="false">https://www.amazon.com/Starting-Out-Python-Tony-Gaddis/dp/0134444329</string>
+    <string name="link3_text">List of Python books</string>
+    <string name="link3" translatable="false">https://wiki.python.org/moin/PythonBooks</string>
+    <string name="link4_text">Easy to follow Python tutorials</string>
+    <string name="link4" translatable="false">https://www.w3schools.com/python/</string>
+
+    <!-- misc -->
+    <string name="logo">logo</string>
+    <string name="text_input">Enter your answer</string>
+    <string name="answer_button">Answer</string>
+    <string name="share">Share</string>
+    <string name="sharing_not_available">Sharing Not Available</string>
+    <string name="quiz">Quiz</string>
+    <string name="score">Score</string>
+    <string name="play_again">Play again</string>
+
+
+
+</resources>
